@@ -1,0 +1,39 @@
+html{overflow-x: hidden;} /*Полосы прокрутки*/
+body{background: url(../img/fon.jpg)no-repeat ;background-size: 100%;background-position: 50% 50% ;}
+}
+header {}
+footer{
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+a{text-decoration: none;}
+li{list-style: none;display: inline-block; text-align: justify;}
+/*header li{list-style: none;display: inline-block;}
+footer li {list-style: none;display: inline-block;}
+.menu>li{ float: right;height: 100px;list-style: none;}*/
+.menu{font: bold 3em Arial, sans-serif;position: right;}
+.menu div{margin:20% auto;}
+.menu div a{font-size: 16px;color:grey;text-shadow: grey;}
+.button5 {border-radius: 50%;}
+.button {
+    background-color: white;
+    border: none;
+    color: grey;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+#container{width: 100%; /* Общая ширина макета */margin: 0 auto; /* Выравниваем по центру */text-align: justify;text-align: center;}
+#footer {
+    position: ; /* Фиксированное положение */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+    text-align: justify;
+    text-align: center;
+}
